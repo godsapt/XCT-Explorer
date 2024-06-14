@@ -1,0 +1,5 @@
+numpy
+pandas
+altair
+scipy
+st-gsheets-connection
