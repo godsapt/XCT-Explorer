@@ -2,4 +2,5 @@ numpy <2
 pandas
 altair
 scipy
+streamlit==1.36.0
 st-gsheets-connection
