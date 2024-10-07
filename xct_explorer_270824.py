@@ -12,10 +12,10 @@ tabCitation, tabInstructions, tabGeometry, tabComposition =st.tabs(['Disclosure'
 with tabCitation:
     st.write('The XCT-Explorer is a graphic user interface designed to be an intuitive and interactive tool to help planning CT experiments according to a step-by-step protocol (see **instructions** tab). This should allow for an interactive balancing of various scanning parametes and for a first assessment of the feasibility of experiments. Details about the protocol and the equations that link the various parameters can be found in "citation".')
     st.subheader ('Citation')
-    st.write ('If you find XCT-explorer usefull for the planning of your experiment please cite the publication :blue[?? TMS 2024].') 
+    st.write ('If you find XCT-explorer usefull for the planning of your experiment please cite the publication :blue[https://doi.org/10.1016/j.tmater.2024.100041].') 
     st.write ('This project has received funding through the EXCITE network, via the European Union’s Horizon 2020 research and innovation programme under grant agreement No 101005611 & Horizon Europe grant agreement No 101131765')
     st.subheader('Important disclaimer')
-    st.write ('For simplicity, some advanced options are not considered. Always interpret the results critically and discuss your assessment with a CT expert')
+    st.write ('For simplicity, some advanced options are not considered. Always interpret the results critically and discuss your assessment with a CT expert. Additional features can be found in the advanced mode of the app: https://xct-explorer-advanced-v1.streamlit.app')
     st.subheader('GNU Affero General Public License v3.0')
     st.write('Use, reproduction or alteration of the code is possible under the commitment to cite the original work')
     st.write ('https://github.com/godsapt/XCT-Explorer/blob/main/LICENSE')
